@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Courses | Nakuru Training Institute</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="assets/images/logo.png" alt="NTI Logo">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html" class="active">Courses</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <button class="apply-btn">Apply Now</button>
+</header>
+
+<section class="page-hero">
+    <h1>Our Programs</h1>
+</section>
+
+<section class="section">
+
+    <div class="filter-buttons">
+        <button onclick="filterCourses('all')">All</button>
+        <button onclick="filterCourses('ict')">ICT</button>
+        <button onclick="filterCourses('business')">Business</button>
+        <button onclick="filterCourses('engineering')">Electrical Installation</button>
+        <button onclick="filterCourses('creative')">Creative Arts</button>
+        <button onclick="filterCourses('catering')">Catering & Hospitality</button> <!--started adding here-->
+        <button onclick="filterCourses('fashion')">Fashion & Design</button>
+        <button onclick="filterCourses('hairdressing')">Hairdressing & Beauty Therapy</button>
+        <button onclick="filterCourses('plumbing')">Plumbing & Pipe Fitting</button>
+
+
+    </div>
+
+    <div class="course-grid">
+
+        <!-- ICT -->
+        <div class="course-card ict">
+            <img src="assets/images/ICT.jpg" alt="">
+            <h3>Information Technology (IT) CDACC Level 6</h3>
+            <p>Duration: 2 Years</p>
+           <a href="admissions.html" class="course-apply-btn">Apply Now</a>
+
+        </div>
+
+        <div class="course-card ict">
+            <img src="assets/images/ICT.JPG" alt="">
+            <h3>Information Technology (IT) CDACC Level 5</h3>
+            <p>Duration: 1 Year</p>
+           <a href="admissions.html" class="course-apply-btn">Apply Now</a>
+
+        </div>
+
+        <div class="course-card ict">
+            <img src="assets/images/ICT.JPG" alt="">
+            <h3>Information Technology (IT) CDACC Level 4</h3>
+            <p>Duration: 6 Months</p>
+           <a href="admissions.html" class="course-apply-btn">Apply Now</a>
+
+        </div>
+        <div class="course-card ict">
+            <img src="assets/images/CCNA.jpg" alt="">
+            <h3>CCNA I - III</h3>
+            <p>Duration: 9 Months</p>
+           <a href="admissions.html" class="course-apply-btn">Apply Now</a>
+
+        </div>
+
+        <div class="course-card ict">
+            <img src="assets/images/course2.jpg" alt="">
+            <h3>Graphic Design</h3>
+            <p>Duration: 3 Months</p>
+           <a href="admissions.html" class="course-apply-btn">Apply Now</a>
+
+        </div>
+
+        <div class="course-card ict">
+            <img src="assets/images/ICT.JPG" alt="">
+            <h3>Computer Packages</h3>
+            <p>Duration: 8 Weeks</p>
+           <a href="admissions.html" class="course-apply-btn">Apply Now</a>
+
+        </div>
+
+        <!-- Business -->
+        <div class="course-card business">
+            <img src="assets/images/course1.jpg" alt="">
+            <h3>Business Management CDACC Level 6</h3>
+            <p>Duration: 2 Years</p>
+           <a href="admissions.html" class="course-apply-btn">Apply Now</a>
+
+        </div>
+
+        <div class="course-card business">
+            <img src="assets/images/course2.jpg" alt="">
+            <h3>Human Resource Management</h3>
+            <p>Duration: 1 Year</p>
+           <a href="admissions.html" class="course-apply-btn">Apply Now</a>
+
+        </div>
+
+        <div class="course-card business">
+            <img src="assets/images/course3.jpg" alt="">
+            <h3>Sales & Marketing</h3>
+            <p>Duration: 1 Year</p>
+           <a href="admissions.html" class="course-apply-btn">Apply Now</a>
+
+        </div>
+
+        <!-- Engineering -->
+        <div class="course-card engineering">
+            <img src="assets/images/Electrical1.JPG" alt="">
+            <h3>Electrical Installation - CDACC Level 4</h3>
+            <p>Duration: 2 Terms</p>
+           <a href="admissions.html" class="course-apply-btn">Apply Now</a>
+
+        </div>
+
+        <div class="course-card engineering">
+            <img src="assets/images/Electrical2.jpg" alt="">
+            <h3>Electrical Installation - CDACC Level 5</h3>
+            <p>Duration: 4 Terms</p>
+           <a href="admissions.html" class="course-apply-btn">Apply Now</a>
+
+        </div>
+
+        <div class="course-card engineering">
+            <img src="assets/images/Electrical3.JPG" alt="">
+            <h3>Electrical Installation - CDACC Level 6</h3>
+            <p>Duration: 6 Terms</p>
+           <a href="admissions.html" class="course-apply-btn">Apply Now</a>
+
+        </div>
+
+        <div class="course-card engineering">
+            <img src="assets/images/Electrical1.JPG" alt="">
+            <h3>Electrical Wireman - NITA Grade III, II, & 1</h3>
+            <p>Duration: 3 Months per Grade</p>
+           <a href="admissions.html" class="course-apply-btn">Apply Now</a>
+
+        </div>
+
+        <div class="course-card engineering">
+            <img src="assets/images/CCTV.jpg" alt="">
+            <h3>CCTV Installation</h3>
+            <p>Duration: 3 Months</p>
+           <a href="admissions.html" class="course-apply-btn">Apply Now</a>
+
+        </div>
+
+        <div class="course-card engineering">
+            <img src="assets/images/Electrical3.JPG" alt="">
+            <h3>Solar Installation</h3>
+            <p>Duration: 3 Months</p>
+           <a href="admissions.html" class="course-apply-btn">Apply Now</a>
+
+        </div>
+
+        <!-- Creative -->
+        <div class="course-card creative">
+            <img src="assets/images/course1.jpg" alt="">
+            <h3>Graphic Design</h3>
+            <p>Duration: 3 Months</p>
+           <a href="admissions.html" class="course-apply-btn">Apply Now</a>
+
+        </div>
+
+        <div class="course-card creative">
+            <img src="assets/images/course2.jpg" alt="">
+            <h3>Video Production</h3>
+            <p>Duration: 3 Months</p>
+           <a href="admissions.html" class="course-apply-btn">Apply Now</a>
+
+        </div>
+
+        <div class="course-card creative">
+            <img src="assets/images/course3.jpg" alt="">
+            <h3>Photography</h3>
+            <p>Duration: 3 Months</p>
+           <a href="admissions.html" class="course-apply-btn">Apply Now</a>
+
+        </div>
+
+        <!-- Cosmetology -->
+        <div class="course-card hairdressing">
+            <img src="assets/images/Hairdressing.JPG" alt="">
+            <h3>Cosmetology CDACC Level 4</h3>
+            <p>Duration: 2 Terms</p>
+           <a href="admissions.html" class="course-apply-btn">Apply Now</a>
+
+        </div>
+
+        <div class="course-card hairdressing">
+            <img src="assets/images/hairdressing1.JPG" alt="">
+            <h3>Cosmetology CDACC Level 5</h3>
+            <p>Duration: 4 Terms</p>
+           <a href="admissions.html" class="course-apply-btn">Apply Now</a>
+
+        </div>
+
+        <div class="course-card hairdressing">
+            <img src="assets/images/hairdressing2.JPG" alt="">
+            <h3>Cosmetology CDACC Level 6</h3>
+            <p>Duration: 6 Terms</p>
+           <a href="admissions.html" class="course-apply-btn">Apply Now</a>
+
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Nakuru Training Institute. All Rights Reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
